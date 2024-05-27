@@ -1,0 +1,37 @@
+*{
+    background-color: #3A7CA5;
+},
+
+.form {
+    background-color: #D9DCD6;
+    display: block;
+    padding: 20px;
+    width: 300px;
+}
+
+.form input {
+    display: block;
+    margin-bottom: 10px; 
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    background-color:#D9DCD6;
+}
+
+.form button {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    background-color: #16425B;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.form button:hover {
+    background-color: #D9DCD6;
+    color:black;
+}
+
+
+        
