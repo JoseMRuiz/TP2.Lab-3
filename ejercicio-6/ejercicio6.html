@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+</head>
+<body>
+    <h1>Formulario de Ingreso</h1>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50"><br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" maxlength="50"><br><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+        
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" name="altura"><br><br>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+        
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+    <script src="ejercicio6.js"></script>
+</body>
+</html>
