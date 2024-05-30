@@ -46,5 +46,5 @@ const validar = () =>{
         validar4.style.color = "red";
         validar4.textContent = "El correo electrónico no puede estar vacío y debe incluir el ‘@’.";
     }
-} 
+};
 
